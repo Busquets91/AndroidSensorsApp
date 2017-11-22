@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.exsitu.inria.jriviere.workshopsensorstoudp.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutConfig"
+        android:layout_width="366dp"
+        android:layout_height="144dp"
+        tools:layout_editor_absoluteX="9dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible">
+
+        <Switch
+            android:id="@+id/switchEnable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/editTextIP"
+            android:text="Lock"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="307dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Port : "
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextPort"
+            android:layout_toStartOf="@+id/editTextPort"
+            android:text="IP : "
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editTextIP"
+            android:layout_marginTop="32dp"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/editTextPort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/textView2"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editTextPort"
+            android:layout_below="@+id/editTextPort"
+            android:ems="10"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editTextIP"
+            android:layout_alignStart="@+id/switchEnable">
+
+
+            <RadioButton
+                android:id="@+id/radioButtonOSC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/radioButtonUDP"
+                android:layout_below="@+id/radioButtonUDP"
+                android:layout_weight="1"
+                android:text="OSC" />
+
+            <RadioButton
+                android:id="@+id/radioButtonUDP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView4"
+                android:layout_alignEnd="@+id/switchEnable"
+                android:layout_weight="1"
+                android:text="UDP" />
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutRecord"
+        android:layout_width="381dp"
+        android:layout_height="109dp"
+        tools:layout_editor_absoluteX="10dp"
+        android:layout_marginTop="8dp"
+
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayoutConfig">
+
+        <Button
+            android:id="@+id/buttonSonificationRecordedOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Off"
+            android:visibility="invisible"
+            android:layout_below="@+id/buttonRecordStart1"
+            android:layout_alignStart="@+id/buttonSonificationRecordedOn" />
+
+        <Button
+            android:id="@+id/buttonSonificationRecordedOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OFF"
+            android:visibility="invisible"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_alignBaseline="@+id/buttonSonVideo"
+            android:layout_alignBottom="@+id/buttonSonVideo"
+            android:layout_toEndOf="@+id/textViewSonificationRecorded"
+            android:layout_marginStart="21dp" />
+
+        <Button
+            android:id="@+id/buttonRecordStop1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:enabled="false"
+            android:layout_marginLeft="98dp"
+            android:visibility="invisible"
+            android:layout_below="@+id/buttonSonificationRecordedOn"
+            android:layout_toEndOf="@+id/buttonRecordStart1" />
+
+        <TextView
+            android:id="@+id/textViewSonificationRecorded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sound recorded: "
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="31dp"
+            android:visibility="invisible"
+            android:layout_alignBaseline="@+id/buttonSonificationRecordedOff"
+            android:layout_alignBottom="@+id/buttonSonificationRecordedOff"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonRecordStart1"
+            android:layout_alignBottom="@+id/buttonRecordStart1"
+            android:layout_alignParentStart="true"
+            android:text="Record : "
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="31dp" />
+
+        <Button
+            android:id="@+id/buttonRecordStart1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="•"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:layout_alignParentTop="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_toEndOf="@+id/textView10"
+            />
+
+
+
+        <Button
+            android:id="@+id/buttonPlay1"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:text="||►"
+            android:visibility="invisible"
+            android:enabled="true"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/buttonStop1" />
+
+        <Button
+            android:id="@+id/buttonStop1"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="←"
+            android:visibility="invisible"
+            android:enabled="true"
+            android:layout_alignBaseline="@+id/buttonRecordStart1"
+            android:layout_alignBottom="@+id/buttonRecordStart1"
+            android:layout_alignStart="@+id/buttonRecordStop1"
+            android:layout_marginStart="49dp" />
+
+
+        <Button
+            android:id="@+id/buttonSonVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Both"
+            android:visibility="invisible"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_alignBaseline="@+id/buttonSonificationRecordedOff"
+            android:layout_alignBottom="@+id/buttonSonificationRecordedOff"
+            android:layout_toEndOf="@+id/buttonSonificationRecordedOff"
+            android:layout_marginStart="26dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutProf"
+        android:layout_width="367dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="10dp"
+
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayoutRecord"
+        tools:layout_editor_absoluteX="9dp">
+
+        <Button
+            android:id="@+id/buttonProfPlayPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:text="||►"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_alignBaseline="@+id/textViewProfesseur"
+            android:layout_alignBottom="@+id/textViewProfesseur"
+            android:layout_toEndOf="@+id/textViewProfesseur" />
+
+        <Button
+            android:id="@+id/buttonProfRestart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:text="←"
+            android:layout_alignBaseline="@+id/buttonProfPlayPause"
+            android:layout_alignBottom="@+id/buttonProfPlayPause"
+            android:layout_toEndOf="@+id/buttonProfPlayPause" />
+        <TextView
+            android:id="@+id/textViewProfesseur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="Video professor" />
+
+        <Button
+            android:id="@+id/buttonFlipProfesseur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flip"
+            android:layout_alignBottom="@+id/buttonProfRestart"
+            android:layout_toEndOf="@+id/buttonProfRestart" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutSonification"
+        android:layout_width="367dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayoutProf"
+
+        tools:layout_editor_absoluteX="9dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonSonificationOn"
+            android:layout_alignBottom="@+id/buttonSonificationOn"
+            android:layout_alignParentStart="true"
+            android:text="Sonification : "
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="318dp" />
+
+        <Button
+            android:id="@+id/buttonSonificationOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OFF"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/textView9"
+            android:layout_marginStart="20dp" />
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

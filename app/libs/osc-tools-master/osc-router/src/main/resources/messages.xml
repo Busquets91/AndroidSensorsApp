@@ -1,0 +1,196 @@
+<map>
+  <entry>
+    <string>/midi/noteon</string>
+    <com.netthreads.network.osc.router.model.OSCItem>
+      <addressProperty class="javafx.beans.property.SimpleStringProperty">
+        <value>/midi/noteon</value>
+        <valid>true</valid>
+        <bean class="com.netthreads.network.osc.router.model.OSCItem" reference="../.."/>
+        <name>address</name>
+      </addressProperty>
+      <workingProperty class="javafx.beans.property.SimpleIntegerProperty">
+        <value>1</value>
+        <valid>true</valid>
+        <bean class="com.netthreads.network.osc.router.model.OSCItem" reference="../.."/>
+        <name>working</name>
+      </workingProperty>
+      <routeProperty class="javafx.beans.property.SimpleStringProperty">
+        <value>Note On</value>
+        <valid>false</valid>
+        <bean class="com.netthreads.network.osc.router.model.OSCItem" reference="../.."/>
+        <name>route</name>
+      </routeProperty>
+      <deviceProperty class="javafx.beans.property.SimpleStringProperty">
+        <value>Gervill</value>
+        <valid>true</valid>
+        <bean class="com.netthreads.network.osc.router.model.OSCItem" reference="../.."/>
+        <name>device</name>
+      </deviceProperty>
+      <statusProperty class="javafx.beans.property.SimpleIntegerProperty">
+        <value>0</value>
+        <valid>true</valid>
+        <bean class="com.netthreads.network.osc.router.model.OSCItem" reference="../.."/>
+        <name>status</name>
+      </statusProperty>
+      <values class="linked-list">
+        <com.netthreads.network.osc.router.model.OSCValue>
+          <typeProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>i</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>type</name>
+          </typeProperty>
+          <valueProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>59</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>value</name>
+          </valueProperty>
+          <labelProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>note</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>label</name>
+          </labelProperty>
+        </com.netthreads.network.osc.router.model.OSCValue>
+        <com.netthreads.network.osc.router.model.OSCValue>
+          <typeProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>i</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>type</name>
+          </typeProperty>
+          <valueProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>127</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>value</name>
+          </valueProperty>
+          <labelProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>velocity</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>label</name>
+          </labelProperty>
+        </com.netthreads.network.osc.router.model.OSCValue>
+        <com.netthreads.network.osc.router.model.OSCValue>
+          <typeProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>i</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>type</name>
+          </typeProperty>
+          <valueProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>1</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>value</name>
+          </valueProperty>
+          <labelProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>channel</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>label</name>
+          </labelProperty>
+        </com.netthreads.network.osc.router.model.OSCValue>
+      </values>
+    </com.netthreads.network.osc.router.model.OSCItem>
+  </entry>
+  <entry>
+    <string>/midi/noteoff</string>
+    <com.netthreads.network.osc.router.model.OSCItem>
+      <addressProperty class="javafx.beans.property.SimpleStringProperty">
+        <value>/midi/noteoff</value>
+        <valid>true</valid>
+        <bean class="com.netthreads.network.osc.router.model.OSCItem" reference="../.."/>
+        <name>address</name>
+      </addressProperty>
+      <workingProperty class="javafx.beans.property.SimpleIntegerProperty">
+        <value>1</value>
+        <valid>true</valid>
+        <bean class="com.netthreads.network.osc.router.model.OSCItem" reference="../.."/>
+        <name>working</name>
+      </workingProperty>
+      <routeProperty class="javafx.beans.property.SimpleStringProperty">
+        <value>Note Off</value>
+        <valid>false</valid>
+        <bean class="com.netthreads.network.osc.router.model.OSCItem" reference="../.."/>
+        <name>route</name>
+      </routeProperty>
+      <deviceProperty class="javafx.beans.property.SimpleStringProperty">
+        <value>Gervill</value>
+        <valid>true</valid>
+        <bean class="com.netthreads.network.osc.router.model.OSCItem" reference="../.."/>
+        <name>device</name>
+      </deviceProperty>
+      <statusProperty class="javafx.beans.property.SimpleIntegerProperty">
+        <value>0</value>
+        <valid>true</valid>
+        <bean class="com.netthreads.network.osc.router.model.OSCItem" reference="../.."/>
+        <name>status</name>
+      </statusProperty>
+      <values class="linked-list">
+        <com.netthreads.network.osc.router.model.OSCValue>
+          <typeProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>i</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>type</name>
+          </typeProperty>
+          <valueProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>52</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>value</name>
+          </valueProperty>
+          <labelProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>note</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>label</name>
+          </labelProperty>
+        </com.netthreads.network.osc.router.model.OSCValue>
+        <com.netthreads.network.osc.router.model.OSCValue>
+          <typeProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>i</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>type</name>
+          </typeProperty>
+          <valueProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>0</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>value</name>
+          </valueProperty>
+          <labelProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>velocity</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>label</name>
+          </labelProperty>
+        </com.netthreads.network.osc.router.model.OSCValue>
+        <com.netthreads.network.osc.router.model.OSCValue>
+          <typeProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>i</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>type</name>
+          </typeProperty>
+          <valueProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>1</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>value</name>
+          </valueProperty>
+          <labelProperty class="javafx.beans.property.SimpleStringProperty">
+            <value>channel</value>
+            <valid>true</valid>
+            <bean class="com.netthreads.network.osc.router.model.OSCValue" reference="../.."/>
+            <name>label</name>
+          </labelProperty>
+        </com.netthreads.network.osc.router.model.OSCValue>
+      </values>
+    </com.netthreads.network.osc.router.model.OSCItem>
+  </entry>
+</map>

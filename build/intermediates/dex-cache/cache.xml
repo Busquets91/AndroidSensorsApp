@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/jriviere/.android/build-cache/34dc19ee97972d57e132ede5dc4072f23309625c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/jriviere/AndroidStudioProjects/WorkshopSensorsToUDP/app/build/intermediates/pre-dexed/debug/classes_a821252322d2ab4f18d202afcff30ad3d3d5c081.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jriviere/.android/build-cache/60ac272a63986e54298dc76f366d27b83cf563a4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/jriviere/AndroidStudioProjects/WorkshopSensorsToUDP/app/build/intermediates/pre-dexed/debug/classes_6d04eb5d38f2f516aa61b2e9889508d2dc5a069a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jriviere/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/jriviere/AndroidStudioProjects/WorkshopSensorsToUDP/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_0b678f0cfc79b471039887738ce182fbb2a955df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jriviere/.android/build-cache/dd0ec82d63a277c54309a3d5a8c82b1d83814f36/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/jriviere/AndroidStudioProjects/WorkshopSensorsToUDP/app/build/intermediates/pre-dexed/debug/classes_d7096bd7246654c692bf7b37642bb48ccc5ac433.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jriviere/.android/build-cache/44828b51886cc1768eab8e8d97f816366d442303/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/jriviere/AndroidStudioProjects/WorkshopSensorsToUDP/app/build/intermediates/pre-dexed/debug/classes_3dda4025176ff3b8dbb440fc70be0787874ce9db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jriviere/.android/build-cache/95b0d793e03aed9e3bf55b40963ba42fc1e54409/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/jriviere/AndroidStudioProjects/WorkshopSensorsToUDP/app/build/intermediates/pre-dexed/debug/classes_e82b4be01781256c5a17cf0a5c9146e53e5c33f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jriviere/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/jriviere/AndroidStudioProjects/WorkshopSensorsToUDP/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_ebdc7da8b4b1e967cea8c6f63b9379cd86fbbf05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jriviere/.android/build-cache/f0aa770d0e6f5826098c783d0c9385a78c8dd1fc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/jriviere/AndroidStudioProjects/WorkshopSensorsToUDP/app/build/intermediates/pre-dexed/debug/classes_242b33a5a19d208e67a774979094fe539038337f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jriviere/.android/build-cache/adb2735e874716677441fb96896171d014534693/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jriviere/AndroidStudioProjects/WorkshopSensorsToUDP/app/build/intermediates/pre-dexed/debug/classes_479b35d5b9ba3d753943bd5c2fdc725fc269e788.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jriviere/.android/build-cache/e35079924247f762fc6cfe5e76a7156da9fc244f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/jriviere/AndroidStudioProjects/WorkshopSensorsToUDP/app/build/intermediates/pre-dexed/debug/classes_de926a32ed1c4d35bce724a580dcae91d1d0e876.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jriviere/AndroidStudioProjects/WorkshopSensorsToUDP/app/src/main/res/lib/oscP5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a0f5c04a1d16a51d7ddd5b35b1f55ba52922a81">
+        <dex dex="/Users/jriviere/AndroidStudioProjects/WorkshopSensorsToUDP/app/build/intermediates/pre-dexed/debug/oscP5_7707cbc73d05e19fc9aecfc3a6f0a22635271342.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jriviere/.android/build-cache/5194eac1fd623665560bb2c6433e8fcd88962781/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/jriviere/AndroidStudioProjects/WorkshopSensorsToUDP/app/build/intermediates/pre-dexed/debug/classes_75d5792667cf03eb2029ed21d8c7ead9c4c4d614.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jriviere/.android/build-cache/b8a6b6e477448f92a35b0cfc29019eab497faea8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/jriviere/AndroidStudioProjects/WorkshopSensorsToUDP/app/build/intermediates/pre-dexed/debug/classes_674331de0a98b9876288ade27544576bc40ce870.jar" />
+    </item>
+
+</items>

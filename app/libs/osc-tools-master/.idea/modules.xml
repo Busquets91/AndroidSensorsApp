@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UDP.iml" filepath="$PROJECT_DIR$/UDP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UDPToMax.iml" filepath="$PROJECT_DIR$/UDPToMax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osc-common/osc-common.iml" filepath="$PROJECT_DIR$/osc-common/osc-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osc-network/osc-network.iml" filepath="$PROJECT_DIR$/osc-network/osc-network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osc-router/osc-router.iml" filepath="$PROJECT_DIR$/osc-router/osc-router.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osc-tools.iml" filepath="$PROJECT_DIR$/osc-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qqq.iml" filepath="$PROJECT_DIR$/qqq.iml" />
+    </modules>
+  </component>
+</project>
